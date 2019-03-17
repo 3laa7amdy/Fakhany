@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_bc"
+    android:id="@+id/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="90dp"
+        android:text="EAT MORE!"
+        android:textColor="#11aec0"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/text1"
+        android:layout_alignLeft="@+id/text1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="130dp"
+        android:text="FILL HALF YOUR PLATE WITH FRUITS AND VEGGIES"
+        android:textColor="#FFFA00"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="180dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/ed_bg"
+        android:layout_marginRight="40dp"
+        android:textColorHint="#FFF"
+        android:hint="User Name" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="15dp"
+        android:textColorHint="#FFF"
+        android:background="@drawable/ed_bg"
+        android:layout_marginTop="250dp"
+        android:gravity="left"
+        android:inputType="textPassword"
+        android:layout_marginRight="40dp"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/logein"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/shap2"
+        android:text="Loge In"
+        android:textColor="#FFF"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/shap2"
+        android:textColor="#FFF"
+        android:text="Sign Up"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingLeft="110dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/fb2" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/tw5" />
+    </LinearLayout>
+</RelativeLayout>

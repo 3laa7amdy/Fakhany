@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:focusableInTouchMode="false"
+    android:focusable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp">
+
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="190dp"
+        android:id="@+id/image"
+        android:scaleType="centerInside"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14.4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/row_shopcard_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="$25.99"
+            android:textColor="#212224" />
+
+
+        <TextView
+            android:id="@+id/row_shopcard_count"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="5"
+            android:textColor="#212224" />
+
+
+    </LinearLayout>
+   <HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#212224"
+        android:text="Lorem Socks Ipsum"
+        android:id="@+id/row_shopcard_name"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp"/>
+      </HorizontalScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp">
+
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/card_confrim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/confirm"
+            />
+
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/card_delete"
+            android:src="@drawable/cancel"
+            />
+
+
+
+    </LinearLayout>
+</LinearLayout>
