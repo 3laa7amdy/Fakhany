@@ -27,7 +27,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="130dp"
         android:text="FILL HALF YOUR PLATE WITH FRUITS AND VEGGIES"
-        android:textColor="#FFFA00"
+        android:textColor="#FAFAFC"
         android:textSize="14dp" />
 
     <EditText
@@ -37,6 +37,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="180dp"
         android:paddingLeft="15dp"
+        android:textColor="#FFF"
         android:background="@drawable/ed_bg"
         android:layout_marginRight="40dp"
         android:textColorHint="#FFF"
@@ -54,6 +55,7 @@
         android:layout_marginTop="250dp"
         android:gravity="left"
         android:inputType="textPassword"
+        android:textColor="#FFF"
         android:layout_marginRight="40dp"
         android:hint="Password" />
 
@@ -65,7 +67,9 @@
         android:layout_marginTop="320dp"
         android:layout_marginRight="45dp"
         android:background="@drawable/shap2"
-        android:text="Loge In"
+        android:text="Log In"
+        android:textSize="20sp"
+        android:textAlignment="center"
         android:textColor="#FFF"
         android:textAllCaps="false" />
 
@@ -79,6 +83,8 @@
         android:background="@drawable/shap2"
         android:textColor="#FFF"
         android:text="Sign Up"
+        android:textSize="20sp"
+        android:textAlignment="center"
         android:textAllCaps="false" />
 
     <LinearLayout
